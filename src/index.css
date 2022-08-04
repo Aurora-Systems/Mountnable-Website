@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200&family=Euphoria+Script&display=swap');
+body {
+  margin: 0;
+  font-family: 'Epilogue', sans-serif;
+  user-select: none;
+}
+
+:root{
+  --main_green:#20c997;
+  --main_red:#dc3545;
+  --hover_state_one:#155844;
+  --hover_state_two:#241718;
+  --hover_state_three:#640303;
+  --hover_state_four:#093a2c;
+}
+
+.logoNav{
+  height: 50px;
+  width: 40px;
+}
+
+.block{
+  background: #dc3545;
+  font-size: large;
+}
+
+.block-two{
+  background: #20c997;
+}
+
+.heightBlock{
+  height: 70vh;
+}
+
+@keyframes FadeIn{
+  0%{
+    opacity: 1.1px;
+  }
+  100%{
+    opacity: 2px;
+  }
+}
+
+
+.fade{
+  animation: FadeIn normal 3s;
+}
+
+.blockAnimation:hover{
+  transition: 0.5s;
+  background:linear-gradient(var(--hover_state_one),var(--hover_state_two));
+  transform: scale(1.05);
+}
+
+.blockAnimationTwo:hover{
+  transition: 0.5s;
+  background:linear-gradient(var(--hover_state_three),var(--hover_state_four));
+  transform: scale(1.05);
+}
+
+.page{
+  min-height: 90vh;
+}
+
+.opacityBg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 40vw;
+  min-height: 40vh;
+  background-color: #4444444f;
+}
+
+.footer{
+  padding-top: 10px;
+  background-color: #f8f9fa;
+}
+
+.generalBtn{
+  margin: 5px;
+  padding: 2px;
+  border: none;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-radius: 0px;
+}
+
+.generalBtn:hover{
+  
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
