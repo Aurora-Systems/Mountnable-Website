@@ -66,7 +66,7 @@ const Home=()=>{
                             <Carousel.Item>
                                 <img className="Sirv" data-src="https://holatomp.sirv.com/Bellprize/bul.jpg" alt="" />
                                <Carousel.Caption>
-                                    <h3>Bulawayo Sports Club</h3>
+                                    <h3>Old Miltons Sports Club</h3>
                                </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>

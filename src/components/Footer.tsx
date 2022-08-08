@@ -5,11 +5,14 @@ import { flexCenter, flexEvenly } from './cssStyles'
 const Footer=()=>{
     return(
         <div className="container-fluid footer">
+           
             <div className="row text-center">
                 <div className="col-sm">
                     <img src={mountain} alt="Mountnable"/>
                     <br/>
                     <b>Mountnable</b>
+                    <br/>
+                    <b>903/2 Unit 4 Smuts rd, Waterfalls, Harare</b>
                 </div>
                 <div className="col-sm">
                     <b>+263 772 542 373</b>
