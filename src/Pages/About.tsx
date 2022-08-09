@@ -22,7 +22,8 @@ const About=()=>{
                         <h1 className="dispaly-1">Who Are We?</h1>
                         <p className="ps-2">Formerly known as Bellprize we thought it would be time for a makeover. With over 22 years of experience we are quite sure we can tackle any project head forward with the customers intrest at heart. We belive in surpassing our limit to give you the best service. Our track record is impeccable with over 165 projects completed to date. Start your next project with us, satisfaction guranteed.</p>
                         </div>
-                        <div><button className="btn generalBtn">Contact</button></div>
+                        <div>
+                        <button className="btn generalBtn" data-tally-open="wzxLjk" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave">Contact</button></div>
                     </div>
                     <div className="col-sm" style={imgBg('https://holatomp.sirv.com/Bellprize/2594.jpg')}></div>
                 </div>

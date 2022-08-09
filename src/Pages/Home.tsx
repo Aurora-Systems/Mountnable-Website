@@ -52,19 +52,19 @@ const Home=()=>{
                     <div className={`${flexCenter}`}>
                         <Carousel>
                             <Carousel.Item>
-                                <img className="Sirv" data-src="https://holatomp.sirv.com/Bellprize/FIF.png" alt="" />
+                                <img className="Sirv" src="https://holatomp.sirv.com/Bellprize/FIF.png" alt="" />
                                 <Carousel.Caption>
                                     <h3>FIF College</h3>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img className="Sirv" data-src="https://holatomp.sirv.com/Bellprize/kdv.jpg" alt="" />
+                                <img className="Sirv" src="https://holatomp.sirv.com/Bellprize/kdv.jpg" alt="" />
                                <Carousel.Caption>
                                     <h3>KDV</h3>
                                </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img className="Sirv" data-src="https://holatomp.sirv.com/Bellprize/bul.jpg" alt="" />
+                                <img className="Sirv" src="https://holatomp.sirv.com/Bellprize/bul.jpg" alt="" />
                                <Carousel.Caption>
                                     <h3>Old Miltons Sports Club</h3>
                                </Carousel.Caption>
