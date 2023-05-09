@@ -1,6 +1,6 @@
-import mountain from '../assets/mountain.png'
+import logo from '../assets/logo.png'
 import {copyrightYear} from '../components/GeneralText'
-import { flexCenter, flexEvenly } from './cssStyles'
+import { flexEvenly } from './cssStyles'
 
 const Footer=()=>{
     return(
@@ -8,16 +8,16 @@ const Footer=()=>{
            
             <div className="row text-center">
                 <div className="col-sm">
-                    <img src={mountain} alt="Mountnable"/>
+                    <img src={logo}  height="60" alt="Mountnable"/>
                     <br/>
-                    <b>Mountnable</b>
+                    <b>Bellprize</b>
                     <br/>
                     <b>903/2 Unit 4 Smuts rd, Waterfalls, Harare</b>
                 </div>
                 <div className="col-sm">
                     <b>+263 772 542 373</b>
                     <br/>
-                    <b>mountnable@zohomail.com</b>
+                    <b>info@bellprize.co.zw</b>
                     <div className={`${flexEvenly} p-2`}>
                         <div>
                             <img className="Sirv" data-src="https://holatomp.sirv.com/Bellprize/instagram.png" alt="instagram" />
@@ -33,7 +33,7 @@ const Footer=()=>{
                 <div className="col-sm">
                     <b>© {copyrightYear}</b>
                     <br/>
-                    <b>Designed by <a href="http://aurorasystems.cf" target="_blank">Aurora</a></b>
+                    <b>Designed by <a href="http://aurorasystems.co.zw" target="_blank">Aurora</a></b>
                 </div>
             </div>
         </div>

@@ -1,6 +1,5 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import {Link,Router} from 'react-router-dom';
-import mountain from '../assets/mountain.png'
+import logo from '../assets/logo.png'
 
 const TopNavbar = ()=>{
     return(
@@ -8,7 +7,7 @@ const TopNavbar = ()=>{
             <Navbar collapseOnSelect expand='sm' bg='light' variant='light'>
            <Container>
                <Navbar.Brand className='row'>
-                    <img  src={mountain}  width="40" alt="" />
+                    <img  src={logo} className='responsive'  height="60" alt="" />
                </Navbar.Brand>
             </Container>
                <Navbar.Toggle aria-controls="responsive-navbar-nav" />

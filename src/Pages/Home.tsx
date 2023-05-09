@@ -17,7 +17,7 @@ const Home=()=>{
                         <p>Civil Engineering <b>•</b> Renovations <b>•</b> Construction</p>
                     </div>
                 </div>
-                <div className="col-sm order-md-1" style={imgBg('https://holatomp.sirv.com/Bellprize/10654.jpg')}>
+                <div className="col-sm order-md-1" style={imgBg('https://anacrold.sirv.com/Website/heavy-excavator-digging-day-light.jpg')}>
                 </div>
             </div>
             </Fade>
@@ -29,7 +29,7 @@ const Home=()=>{
                         <p>Need a fresh new look, maybe splash in a new coat of paint or get a few items for the house.</p>
                     </div>
                 </div>
-                <div className="col-sm" style={imgBg('https://holatomp.sirv.com/Bellprize/2050.jpg')}>
+                <div className="col-sm" style={imgBg('https://anacrold.sirv.com/Website/smiling-young-african-american-builder-uniform-holding-roller-brush-with-paint-brush-isolated-blue-background.jpg')}>
                     
                 </div>
             </div>
@@ -42,7 +42,7 @@ const Home=()=>{
                         <p>Need a tennis court, swimming pool, basketball court? </p>
                     </div>
                 </div>
-                <div className="col-sm" style={imgBg('https://holatomp.sirv.com/Bellprize/2148905539.jpg')}></div>
+                <div className="col-sm" style={imgBg('<img src="https://anacrold.sirv.com/Website/tennis-court.jpg" width="1500" height="1000" alt="">')}></div>
                
             </div>
             </Fade>
@@ -52,7 +52,7 @@ const Home=()=>{
                     <div className={`${flexCenter}`}>
                         <Carousel>
                             <Carousel.Item>
-                                <img className="Sirv" src="https://holatomp.sirv.com/Bellprize/FIF.png" alt="" />
+                                <img className="Sirv" src="https://anacrold.sirv.com/Website/245816944_1072938926781077_1065970930019627403_n.jpg" alt="" />
                                 <Carousel.Caption>
                                     <h3>FIF College</h3>
                                 </Carousel.Caption>
